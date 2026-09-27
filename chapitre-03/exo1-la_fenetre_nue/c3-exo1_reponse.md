@@ -29,6 +29,7 @@ int nkmain(const NkEntryState &state) {
     while (window.IsOpen()) {
         NkEvents().PollEvents();
     }
+    
 
     window.Close();
     return 0;
